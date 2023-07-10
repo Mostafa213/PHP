@@ -1,0 +1,126 @@
+/* .container { */
+    /* width: 50%; */
+
+
+    /* justify-content: space-between; */
+    /* margin: auto; */
+    /* border-radius: 5px; */
+    /* background-color: #ffffff; */
+    /* padding: 20px; */
+    /* margin-top: 50px; */
+    /* box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3); */
+/* } */
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+.bg {
+    background-image: url("../../images/WP-D7.png");
+    height: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+.column {
+    width: 50%;
+}
+
+h5 {
+    word-wrap: break-word;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin: -10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.btn:active,
+.btn:focus {
+    background-color: #0062cc;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #0062cc;
+    border-color: #005cbf;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-block {
+    display: block;
+    width: 15%;
+}

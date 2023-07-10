@@ -1,0 +1,25 @@
+.bg {
+    background-image: url("../../images/WP-D7.png");
+    height: 100%;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+.btn:hover {
+    background-color: #2e5982;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #192841;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
